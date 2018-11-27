@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.burakarslan.instagramfirebaseclone.UploadAcitivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edCommentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="EnterComment"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="43dp"
+            tools:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="210dp"
+            android:onClick="chooseImage"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:onClick="btnUpload"
+            android:text="Upload"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="243dp"
+            tools:layout_editor_absoluteY="348dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

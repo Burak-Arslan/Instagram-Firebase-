@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "682168863389",
+    "firebase_url": "https://firabaseinstagram-a6362.firebaseio.com",
+    "project_id": "firabaseinstagram-a6362",
+    "storage_bucket": "firabaseinstagram-a6362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682168863389:android:089756c5c62b4be6",
+        "android_client_info": {
+          "package_name": "com.example.burakarslan.instagramfirebaseclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682168863389-vftai5o1btl1k6iehhdqcic7a7ga2kp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.burakarslan.instagramfirebaseclone",
+            "certificate_hash": "2037d0186cc0b06e944f8d4132eb52fbd681d9a2"
+          }
+        },
+        {
+          "client_id": "682168863389-0sqabus0jpjiiqev485mav63fjvgqs3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmkZSAlGHQAdi5k1oA04DIxCDbJJa48jo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682168863389-0sqabus0jpjiiqev485mav63fjvgqs3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
